@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '~/components/Layout/components/Header';
 
-export default function index({ children }) {
+export default function HeaderOnly({ children }) {
   return (
     <div>
       <Header />

@@ -12,10 +12,10 @@ function App() {
 
           if (route.layout) {
             Layout = route.layout;
-          } else {
+          } else if (route.layout === null) {
             Layout = Fragment;
           }
-
+          
           const Page = route.component;
           return (
             <Route
